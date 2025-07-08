@@ -11,7 +11,7 @@ cd ~
 echo "screen -dmS miner ~/ccminer/ccminer -a verus -o $1 -u $2 -p $3 -t $4" > startup.sh
 chmod +x startup.sh
 mkdir -p ~/.termux/boot
-wget https://raw.githubusercontent.com/TheRetroMike/VerusCliMining/refs/heads/main/termux_boot_startup.sh -O ~/.termux/boot/termux_boot_startup.sh
+wget https://raw.githubusercontent.com/min1933/VerusCliMining/refs/heads/main/termux_boot_startup.sh -O ~/.termux/boot/termux_boot_startup.sh
 ~/startup.sh
 echo "------------------------------"
 echo "Miner is installed and running. Update config using nano startup.sh"
